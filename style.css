@@ -1,7 +1,7 @@
 body {
 
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
 
@@ -11,7 +11,7 @@ body {
 
     color: #32b9cd;
     width: fit-content;
-    font-weight:500;
+    font-weight: 500;
 
 }
 
@@ -26,13 +26,13 @@ body {
 
 }
 
-.navibar a{
+.navibar a {
 
     color: #e3b062;
     text-decoration: none;
 }
 
-.navibar a:hover{
+.navibar a:hover {
 
     color: #32b9cd;
 
@@ -46,7 +46,7 @@ body {
 }
 
 .container {
-    
+
     width: 80%;
     margin: auto;
     display: flex;
@@ -73,7 +73,7 @@ body {
 
 }
 
-.banner .container p{
+.banner .container p {
 
     font-size: 32px;
     width: 200px;
@@ -86,7 +86,7 @@ body {
 
     background-color: #f7f7f7;
     height: 500px;
-    
+
 }
 
 .social .container {
@@ -98,7 +98,7 @@ body {
 
 }
 
-.social .container .box { 
+.social .container .box {
 
     display: flex;
     flex-direction: column;
@@ -106,27 +106,76 @@ body {
     text-align: center;
 }
 
-.social .container .box img{
+.social .container .box img {
 
     width: 100px;
 }
 
-.social .container .box p{
+.social .container .box p {
 
     width: 300px;
-   
+
 }
 
 /*Footer*/
 
-.footer{
+.footer {
 
     background-color: #32b9cd;
-    color:white;
+    color: white;
 
 }
 
 .footer .container {
     justify-content: center;
-    text-align:center;
+    text-align: center;
+}
+
+/*Tela de cadastro */
+
+.box {
+    width: 350px;
+    padding: 10px;
+    background-color: #e2daff;
+    border-radius: 5px;
+
+}
+
+h2 {
+
+    color: #DB7196;
+    justify-content: center;
+    text-align: center;
+}
+
+.box .text {
+
+
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #DB7196;
+    text-align: center;
+    
+
+}
+
+.input {
+    width: 60%;
+    padding: 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #58a5fd;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.button {
+    width: 100px;
+    background-color: #E6005A;                            
+    color: white;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
 }

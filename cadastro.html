@@ -4,8 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Estamos na tela de cadastro!</h1>
+    <div class="header">
+
+        <div class="container">
+            <h1 class="titulo">Aquatech</h1>
+            <ul class="navibar">
+                <li>Inicial</li>
+                <li>Simulador</li>
+                <li>|</li>
+                <li>Login</li>
+
+                <a href="./cadastro.html">
+                    <li><b>Cadastro</b></li>
+
+                </a>
+
+        
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="banner">        
+        <div class="container">
+            <div class="box">
+
+
+                <h2 class="h2"> Bem-vindo!</h2><div>
+                    
+                <br>
+                <div class="text">
+            Nome: <br><input type="text" id="input_nome" placeholder="Seu Nome" class="input"> <br>
+            E-mail: <br><input type="text" id="input_email" placeholder="meuemail@provedor.com" class="input"> <br>
+            Senha: <br><input type="password" id="input_senha" placeholder="******" class="input"> <br>
+            Confirmação da Senha: <br><input type="password" id="input_confirmacao" placeholder="******" class="input"> <br>
+            <button onclick="cadastrar()" class="button">Cadastrar</button></h2>
+
+        </div>
+
+            
+    
+        </div>
+        </div>
+    
 </body>
 </html>
+
+<script>
+
+    function cadastrar(){
+
+        var nome = input_nome.value;
+        var email = input_email.value;
+        var senha = input_senha.value;
+        var confirmacao = input_confirmacao.value;
+
+
+    }
+
+</script>
