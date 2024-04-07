@@ -133,7 +133,7 @@ body {
 
 /*Tela de cadastro */
 
-.box {
+.box2 {
     width: 350px;
     padding: 10px;
     background-color: #e2daff;
@@ -141,14 +141,14 @@ body {
 
 }
 
-h2 {
+.cadastro {
 
     color: #DB7196;
     justify-content: center;
     text-align: center;
 }
 
-.box .text {
+.box2 .text {
 
 
     font-size: 20px;
